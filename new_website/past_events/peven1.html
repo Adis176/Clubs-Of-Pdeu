@@ -1,0 +1,171 @@
+<html>	
+	<head>
+		<link rel="stylesheet" href="pecss.css">
+		<style>
+			#footerss {
+				position: fixed;
+				padding: 10px 10px 0px 10px;
+				bottom: 0;
+				width: 100%;
+				/* Height of the footer*/ 
+				height: 40px;
+				background: grey;
+			}
+			/* Add some padding on document's body to prevent the content
+			to go underneath the header and footer 
+			.fixed-header{        
+				padding-top: 60px;
+				padding-bottom: 40px;
+				position: fixed;
+				top: 0;
+				height: 50px;
+			}
+			.fixed-header, .fixed-footer{
+				width: 100%;
+				position: fixed;        
+				background: #333;
+				padding: 10px 0;
+				color: #fff;
+			}
+			.fixed-header{
+				top: 0;
+			}
+			.fixed-footer{
+				bottom: 0;
+			}
+			.container{
+				width: 80%;
+				margin: 0 auto; /* Center the DIV horizontally 
+			}
+			nav a{
+				color: #fff;
+				text-decoration: none;
+				padding: 7px 25px;
+				display: inline-block;
+			} */
+
+		</style>
+	</head>
+	
+	<body>
+		<!-- Navigation -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+			<div class="container">
+			<a class="navbar-brand" href="#">Start Bootstrap</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ms-auto">
+				<li class="nav-item active"><a class="nav-link" href="#top" onclick="goToTop();">Go_To_Top</a></li>
+				<li class="nav-item"><a class="nav-link" href="#past1">Past events</a></li>
+				</ul>
+			</div>
+			</div>
+		</nav>
+		<header>
+			<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+				  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				</div>
+	
+				<div class="carousel-inner">
+					  <div class="carousel-item active" style="background-image: url('https://source.unsplash.com/RCAhiGJsUUE/1920x1080')">
+						<div class="carousel-caption">
+							  <h5>First slide label</h5>
+							  <p>Some representative placeholder content for the first slide.</p>
+						</div>
+					</div>
+					<div class="carousel-item" style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1920x1080')">
+						<div class="carousel-caption">
+							  <h5>Second slide label</h5>
+							  <p>Some representative placeholder content for the second slide.</p>
+						</div>
+					</div>
+					<div class="carousel-item" style="background-image: url('https://source.unsplash.com/lHGeqh3XhRY/1920x1080')">
+						<div class="carousel-caption">
+							  <h5>Third slide label</h5>
+							  <p>Some representative placeholder content for the third slide.</p>
+						</div>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</header>
+		<section>
+			<div class="wrapper" id="past1">
+				<div class="card">
+					<img src="https://i.ibb.co/ThPNnzM/blade-runner.jpg">
+					<div class="descriptions">
+						<h1>John Wick 3</h1>
+						<p>
+							After gunning down a member of the High Table -- the shadowy international assassin's guild -- legendary hit man John Wick finds himself stripped of the organization's protective services. Now stuck with a $14 million bounty on his head, Wick must fight his way through the streets of New York as he becomes the target of the world's most ruthless killers.
+						</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="https://i.ibb.co/ThPNnzM/blade-runner.jpg">
+					<div class="descriptions">
+						<h1>Equalizer 2</h1>
+						<p>
+							If you have a problem and there is nowhere else to turn, the mysterious and elusive Robert McCall will deliver the vigilante justice you seek. This time, however, McCall's past cuts especially close to home when thugs kill Susan Plummer -- his best friend and former colleague. Now out for revenge, McCall must take on a crew of highly trained assassins who'll stop at nothing to destroy him.                </p>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="https://i.ibb.co/ThPNnzM/blade-runner.jpg">
+					<div class="descriptions">
+						<h1>Equalizer 2</h1>
+						<p>
+							If you have a problem and there is nowhere else to turn, the mysterious and elusive Robert McCall will deliver the vigilante justice you seek. This time, however, McCall's past cuts especially close to home when thugs kill Susan Plummer -- his best friend and former colleague. Now out for revenge, McCall must take on a crew of highly trained assassins who'll stop at nothing to destroy him.                </p>
+					</div>
+				</div>
+
+				<div class="card">
+					<img src="https://i.ibb.co/ThPNnzM/blade-runner.jpg">
+					<div class="descriptions">
+						<h1>Equalizer 2</h1>
+						<p>
+							If you have a problem and there is nowhere else to turn, the mysterious and elusive Robert McCall will deliver the vigilante justice you seek. This time, however, McCall's past cuts especially close to home when thugs kill Susan Plummer -- his best friend and former colleague. Now out for revenge, McCall must take on a crew of highly trained assassins who'll stop at nothing to destroy him.                </p>
+					</div>
+				</div>	
+			</div>
+		</section>
+
+		<section class="py-5">
+			<div class="container">
+			  <h1 class="fw-light">Half Page Image Slider</h1>
+			  <p class="lead">The background images for the slider are set directly in the HTML using inline CSS. The images
+				in this snippet are from <a href="https://unsplash.com">Unsplash</a>!</p>
+			</div>
+		</section>
+
+		<div id="footerss" > 
+			Club name
+		</div>
+		<!--
+		<div class="fixed-header" id="myHeader">
+			<div class="container">
+				<nav>
+					<a href="#">Home</a>
+					<a href="#">About</a>
+					<a href="#">Products</a>
+					<a href="#">Services</a>	
+					<a href="#">Contact Us</a>
+				</nav>
+			</div>
+		</div>	-->
+		<script src="p1.js"></script>
+	</body>
+</html>
+

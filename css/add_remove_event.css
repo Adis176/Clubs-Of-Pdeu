@@ -1,0 +1,117 @@
+.add-event-link{
+    color: #157347 !important;
+}
+
+.remove-event-link {
+    color: #bb2d3b !important;
+}
+
+.register-club-link{
+    color: #0b5ed7 !important;
+}
+
+
+.about-section {
+    margin-bottom: 0px;
+}
+
+.generation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+}
+
+.alert {
+    position: relative;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    width: fit-content;
+}
+
+.alert-success {
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+}
+
+.alert-danger {
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+}
+
+#event-form {
+    margin: 15px;
+}
+
+.data-field {
+    margin-bottom: 10px;
+}
+
+.field {
+    font-weight: bold;
+}
+
+.input {
+    margin-right: 20px;
+}
+
+.invalid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.valid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.form-button {
+    margin-bottom: 10px;
+}
+
+.btn {
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.event-info-card {
+    border-width: 2px;
+    margin: 10px;
+    max-width: fit-content;
+    min-width: 550px;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+@media screen and (max-width : 767px){
+    .event-info-card {
+        transform: scale(0.9);
+    }
+}
